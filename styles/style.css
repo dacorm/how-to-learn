@@ -10,10 +10,68 @@
 }
 
 .header {
+  display: flex;
+  position: relative;
+  left: 0;
+  box-sizing: border-box;
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
   /* выше установили ограничения для секции */
+}
+
+.header__logo {
+  width: 183px;
+  height: 32px;
+}
+
+.header__title {
+  align-self: center;
+  justify-content: center;
+  width: 730px;
+  margin-left: 64px;
+  height: 96px;
+  font-size: 102px;
+  font-weight: 700;
+}
+
+
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.header__square-pic {
+  width: 568px;
+  height: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+}
+
+.header__link {
+  color: #2f80ed;
+}
+
+.logo_place_header {
+  position: absolute;
+  margin: 30px auto auto 64px;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
