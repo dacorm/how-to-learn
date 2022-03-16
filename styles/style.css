@@ -69,6 +69,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .logo_place_header {
@@ -248,7 +249,7 @@
 
 .kaufman {
   position: relative;
-  background-color: black;
+  background-color: #1f1f1f;
   overflow: hidden;
 }
 
@@ -325,71 +326,91 @@
   position: relative;
   display: flex;
   flex-direction: row;
-  border: 1px solid red;
   justify-content: space-between;
   color: white;
-  background-color: black;
+  background-color: #1f1f1f;
   min-width: 350px;
 }
 
 .footer__columns {
-  border: 1px solid red;
+  min-width: 90%;
   display: flex;
+  align-content: flex-end;
   box-sizing: content-box;
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: space-between;
-  margin: 60px 0 40px 0;
-  width: 90%;
+  margin: 60px auto 40px auto;
   flex-basis: 711px;
 }
+
 
 .footer__author {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  margin: 18px 0 18px 0;
-  align-self: flex-end;
+  margin: 18px 0;
+  justify-content: center;
 }
 
 .footer__column-heading {
-
+  margin: 0 0 20px 0;
+  justify-content: space-between;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  align-content: flex-start;
 }
 
 .footer__column-link {
   display: flex;
   flex-direction: column;
-
+  text-decoration: none;
+  color: white;
 }
 
 .footer__column-links {
-
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .footer__column_content_copyright {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0;
 }
 
 .footer__column_content_info {
-
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 50%;
 }
 
 .footer__column_content_social {
-  border: 1px solid red;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0;
 }
 
 .footer__social_icon {
-  border: 1px solid red;
   width: 16px;
   height: 16px;
   display: flex;
+  margin: 0 10px 0 0;
+  align-items: flex-start;
 }
 
 .logo_place_footer {
   display: flex;
-  justify-items: flex-start;
-  align-content: flex-start;
-  border: 1px solid red;
+  justify-items: flex-end;
+  align-content: flex-end;
   margin: 0;
 }
 
@@ -399,7 +420,9 @@
 }
 
 .footer__text {
-  border: 1px solid red;
   display: flex;
-  font-size: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  align-items: center;
 }
