@@ -142,3 +142,64 @@
   margin-right: 0;
   margin-top: 80px;
 }
+
+.digits {
+  position: relative;
+}
+
+.digits-title {
+  display: flex;
+  margin: 100px auto 20px auto;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  line-height: 1.15px;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.digits-subtitle {
+  display: flex;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 20px auto auto auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  width: 1100px;
+  margin: 0 auto 100px auto;
+  flex-direction: row;
+  list-style: none;
+}
+
+.table__heading {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1.15px;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 20px 0;
+}
+
+.table__cell {
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  text-align: start;
+  box-sizing: border-box;
+  width: 250px;
+  margin: 60px auto 60px auto;
+}
+
+.table__text {
+  text-align: justify;
+  line-height: 1.2px;
+  font-size: 18px;
+  font-weight: normal;
+}
