@@ -48,6 +48,7 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 2;
 }
 
 .header__main-illustration {
@@ -65,6 +66,7 @@
   position: absolute;
   top: 64px;
   right: 0;
+  background-color: #2f80ed;
 }
 
 .header__link {
@@ -77,11 +79,6 @@
   margin: 30px auto auto 64px;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
 
 .description {
   position: relative;
@@ -128,9 +125,6 @@
   margin-left: auto;
 }
 
-.two-columns__paragraph:nth-of-type(3n) {
-  margin-bottom: 0;
-}
 
 .two-columns__span-accent {
   line-height: 34px;
@@ -152,6 +146,7 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: 700;
+  flex-wrap: nowrap;
 }
 
 .digits-subtitle {
@@ -262,7 +257,8 @@
 }
 
 .kaufman-title_theme_dark {
-  display: flex;
+  position: relative;
+  z-index: 2;
   margin: 100px auto 20px auto;
   text-align: center;
   justify-content: center;
