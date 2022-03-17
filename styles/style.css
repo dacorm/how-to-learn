@@ -90,7 +90,9 @@
 
 .two-columns {
   display: flex;
-  margin: 100px auto 100px auto;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
   align-self: center;
   flex-direction: row;
   justify-content: space-between;
@@ -98,6 +100,7 @@
 }
 
 .two-columns__main-text {
+  align-items: flex-end;
   flex-direction: column;
   justify-content: space-between;
 }
@@ -121,9 +124,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-bottom: 30px;
-  margin-right: 0;
-  margin-left: auto;
+  margin: 0 0 30px auto;
 }
 
 
@@ -140,7 +141,9 @@
 
 .digits-title {
   display: flex;
-  margin: 100px auto 20px auto;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 100px;
   align-items: center;
   justify-content: center;
   width: 60%;
@@ -211,7 +214,8 @@
 .feynman__title {
   width: 60%;
   flex-wrap: nowrap;
-  margin: 90px auto auto auto;
+  margin: auto;
+  padding-top: 90px;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
