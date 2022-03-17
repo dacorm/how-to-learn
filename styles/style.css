@@ -189,7 +189,7 @@
 }
 
 .table__text {
-  text-align: justify;
+  text-align: left;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -311,7 +311,7 @@
 }
 
 .table__text_theme_dark {
-  text-align: justify;
+  text-align: left;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -385,9 +385,11 @@
   align-items: flex-start;
   justify-content: space-between;
   margin-left: 50%;
+  text-align: left;
 }
 
 .footer__column_content_social {
+  text-align: start;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -421,4 +423,5 @@
   font-size: 18px;
   font-weight: normal;
   align-items: center;
+  margin: 0;
 }
