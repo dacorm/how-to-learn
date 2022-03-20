@@ -92,7 +92,7 @@
 
 .two-columns {
   display: flex;
-  margin: 100px auto 100px auto;
+  margin: auto;
   align-self: center;
   flex-direction: row;
   justify-content: space-between;
@@ -138,13 +138,14 @@
 .digits {
   position: relative;
   overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .section-title {
   display: flex;
   margin: auto;
   padding-bottom: 20px;
-  padding-top: 100px;
   align-items: center;
   justify-content: center;
   width: 60%;
@@ -169,7 +170,7 @@
   flex-wrap: wrap;
   box-sizing: content-box;
   width: 1100px;
-  margin: 0 auto 100px auto;
+  margin: 0 auto auto auto;
   flex-direction: row;
   list-style: none;
 }
@@ -190,7 +191,7 @@
   text-align: start;
   box-sizing: border-box;
   width: 250px;
-  margin: 60px auto 60px auto;
+  margin: 60px auto auto auto;
 }
 
 .table__text {
@@ -253,6 +254,8 @@
   position: relative;
   background-color: #1f1f1f;
   overflow: hidden;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 .kaufman__triangle {
@@ -268,7 +271,7 @@
 .kaufman-title_theme_dark {
   position: relative;
   z-index: 2;
-  margin: 90px auto 20px auto;
+  margin: 0 auto 20px auto;
   text-align: center;
   justify-content: center;
   width: 60%;
@@ -290,7 +293,7 @@
 }
 
 .table_theme_dark {
-  margin: 0 auto 90px auto;
+  margin: 0 auto auto auto;
 }
 
 .table__heading_theme_dark {
@@ -304,7 +307,7 @@
 
 .table__cell_theme_dark {
   width: 200px;
-  margin: 80px 0 80px auto;
+  margin: 80px 0 auto auto;
   color: white;
 }
 
