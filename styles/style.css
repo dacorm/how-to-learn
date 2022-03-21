@@ -1,3 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -7,7 +37,6 @@
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  overflow: hidden;
 }
 
 .header {
@@ -19,7 +48,6 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
-  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
@@ -33,7 +61,6 @@
   align-self: center;
   justify-content: center;
   width: 730px;
-  margin: 0;
   padding-left: 64px;
   line-height: 96px;
   font-size: 102px;
@@ -78,7 +105,8 @@
 
 .logo_place_header {
   position: absolute;
-  margin: 30px auto auto 64px;
+  left: 64px;
+  top: 30px;
 }
 
 
@@ -104,6 +132,8 @@
   align-items: flex-end;
   flex-direction: column;
   justify-content: space-between;
+  width: 80%;
+  min-width: 784px;
 }
 
 .two-columns__brief {
@@ -119,8 +149,6 @@
 .two-columns__paragraph {
   flex-wrap: nowrap;
   flex-direction: column;
-  width: 80%;
-  min-width: 784px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -149,7 +177,6 @@
 .section-title {
   display: flex;
   margin: 0 auto;
-  padding-bottom: 20px;
   align-items: center;
   justify-content: center;
   width: 60%;
@@ -164,7 +191,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin: 20px 0 0 0;
+  width: 60%;
+  margin: 20px auto 0 auto;
   align-items: center;
   justify-content: center;
 }
@@ -174,7 +202,7 @@
   flex-wrap: wrap;
   box-sizing: content-box;
   width: 1100px;
-  margin: 0 auto auto auto;
+  margin: 0 auto;
   flex-direction: row;
   list-style: none;
 }
@@ -211,16 +239,14 @@
   background-color: #f2f2f2;
   box-sizing: border-box;
   height: 890px;
-  border: 1px solid #f2f2f2;
   background-image: url(../images/feinman.png);
   background-repeat: no-repeat;
   background-position: bottom left;
   background-size: 867px 637px;
-  overflow: hidden;
 }
 
 .feynman__title {
-  width: 60%;
+  width: 648px;
   flex-wrap: nowrap;
   margin: 0 auto;
   padding-top: 90px;
@@ -231,7 +257,7 @@
 }
 
 .feynman__subtitle {
-  margin: 20px auto auto auto;
+  margin: 70px auto auto auto;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
@@ -278,24 +304,11 @@
 .section-title_theme_dark {
   position: relative;
   z-index: 2;
-  margin: 0 auto 20px auto;
   text-align: center;
-  justify-content: center;
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 700;
   color: white;
 }
 
 .section-subtitle_theme_dark {
-  display: flex;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 20px auto auto auto;
-  align-items: center;
-  justify-content: center;
   color: white;
 }
 
@@ -365,12 +378,18 @@
   display: flex;
   text-decoration: none;
   color: white;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  align-items: center;
+  margin: 0;
 }
 
 .footer__column-links {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin: 20px 0 16px 0;
 }
 
 .footer__column_content_copyright {
@@ -399,7 +418,7 @@
   margin: 0;
 }
 
-.footer__social_icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   display: flex;
@@ -416,11 +435,4 @@
   margin: 0;
 }
 
-.footer__text {
-  display: flex;
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  align-items: center;
-  margin: 0;
-}
+/* Олег, ты отличный ревьюер, спасибо за работу и ответственный подход к комментариям <3 */
