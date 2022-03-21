@@ -39,7 +39,8 @@
   align-self: center;
   justify-content: center;
   width: 730px;
-  margin: 0 0 0 64px;
+  margin: 0;
+  padding-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: 700;
@@ -270,6 +271,8 @@
 
 .kaufman__triangle {
   background-image: url("../images/triangle.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   right: -210px;
