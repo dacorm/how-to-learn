@@ -140,7 +140,7 @@ dd {
 .two-columns__brief {
   display: flex;
   margin: 0;
-  min-width: 175px;
+  max-width: 175px;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
@@ -354,7 +354,6 @@ dd {
   flex-direction: row;
   justify-content: space-between;
   margin: 60px auto 40px auto;
-  flex-basis: 711px;
 }
 
 
@@ -399,6 +398,7 @@ dd {
   justify-content: space-between;
   align-items: flex-start;
   margin: 0;
+  flex-basis: 711px;
 }
 
 .footer__column_content_info {
@@ -406,7 +406,6 @@ dd {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-left: 50%;
   text-align: left;
 }
 
