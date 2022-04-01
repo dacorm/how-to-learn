@@ -1,3 +1,17 @@
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 *,
 *::before,
 *::after {
@@ -97,6 +111,7 @@ dd {
   top: 64px;
   right: 0;
   background-color: #2f80ed;
+  animation: rotate 20s ease infinite;
 }
 
 .header__link {
@@ -238,6 +253,10 @@ dd {
   margin-right: 20px;
 }
 
+.oakley {
+  padding-top: 160px;
+}
+
 .digits {
   position: relative;
   overflow: hidden;
@@ -370,6 +389,7 @@ dd {
   width: 877px;
   height: 877px;
   overflow: hidden;
+  animation: rotate 20s ease infinite;
 }
 
 .section-title_theme_dark {
