@@ -111,7 +111,7 @@ dd {
   top: 64px;
   right: 0;
   background-color: #2f80ed;
-  animation: rotate 20s ease infinite;
+  animation: rotate 20s linear infinite;
 }
 
 .header__link {
@@ -389,7 +389,7 @@ dd {
   width: 877px;
   height: 877px;
   overflow: hidden;
-  animation: rotate 20s ease infinite;
+  animation: rotate 20s linear infinite;
 }
 
 .section-title_theme_dark {
