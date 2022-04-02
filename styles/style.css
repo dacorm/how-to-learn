@@ -117,6 +117,11 @@ dd {
 .header__link {
   color: #2f80ed;
   text-decoration: none;
+  transition: opacity .4s;
+}
+
+.header__link:hover {
+  opacity: .7;
 }
 
 .logo_place_header {
@@ -369,6 +374,11 @@ dd {
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  transition: opacity .4s;
+}
+
+.feynman__link:hover {
+  opacity: .7;
 }
 
 .kaufman {
@@ -418,6 +428,96 @@ dd {
 
 .table__text_theme_dark {
   color: white;
+}
+
+.khan {
+  padding-top: 105px;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.khan__author {
+  line-height: 42px;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 790px;
+  margin: 50px 0 36px 0;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 68px;
+}
+
+.khan__book-container {
+  display: flex;
+
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  background-image: url("../images/khan-book.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 48px;
+}
+
+.khan__buy-link {
+  text-decoration: none;
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2f80ed;
+  transition: opacity .4s;
+}
+
+.khan__buy-link:hover {
+  opacity: .7;
+}
+
+.resources {
+  padding-top: 100px;
+}
+
+.resources__logo-zone {
+  width: 1100px;
+  margin: 80px auto 217px auto;
+}
+
+.resources__logo {
+  width: 270px;
+  height: 38px;
+  transition: opacity .4s;
+}
+
+.resources__link:hover .resources__logo {
+  opacity: .65;
 }
 
 .footer {
@@ -473,7 +573,13 @@ dd {
   font-weight: normal;
   align-items: center;
   margin: 0;
+  transition: opacity .4s;
 }
+
+.footer__column-link:hover {
+  opacity: .7;
+}
+
 
 .footer__column-links {
   display: flex;
@@ -525,4 +631,3 @@ dd {
   margin: 0;
 }
 
-/* Олег, ты отличный ревьюер, спасибо за работу и ответственный подход к комментариям <3 */
