@@ -1,0 +1,8 @@
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+  display: flex;
+  justify-items: flex-end;
+  align-content: flex-end;
+  margin: 0;
+}

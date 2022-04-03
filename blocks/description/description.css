@@ -1,0 +1,8 @@
+.description {
+  position: relative;
+  align-self: center;
+  margin: auto;
+  flex-direction: row;
+  padding-top: 100px;
+  overflow: hidden;
+}

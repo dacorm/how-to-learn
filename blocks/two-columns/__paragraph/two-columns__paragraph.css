@@ -1,0 +1,12 @@
+.two-columns__paragraph {
+  flex-wrap: nowrap;
+  flex-direction: column;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 30px auto;
+}
+
+.two-columns__paragraph:last-of-type {
+  margin: 0 0 0 auto;
+}
