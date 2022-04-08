@@ -6,6 +6,6 @@
   margin: 0 auto;
   flex-direction: row;
   list-style: none;
-  justify-content: center;
-
+  justify-content: space-between;
+  padding: 0;
 }
